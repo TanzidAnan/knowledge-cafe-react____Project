@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.n1 {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+
+.n2 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(105, 105, 148);
+    display: flex;
+}
+
+.n5 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(5, 5, 80);
+}
+
+.n6 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(241, 130, 10);
+}
+
+.n7 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(100, 235, 197);
+}
+
+.n8 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(234, 232, 179);
+}
+
+.n9 {
+    width: 100%;
+    height: 74px;
+    background-color: rgb(26, 232, 19);
+}
+
+.n10 {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+}
+
+.n11 {
+    width: 100%;
+    height: 74px;
+    background-color: rgb(2, 47, 48);
+}
+
+.n12 {
+    width: 100%;
+    height: 74px;
+    background-color: rgb(0, 94, 255);
+}
+
+.n13 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(0, 0, 0);
+}
+.n14 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(252, 0, 0);
+    display: flex;
+}
+.n15 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(131, 93, 32);
+}
+.n16 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(235, 204, 204);
+}
+.n17 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(249, 3, 151);
+}
+.n18 {
+    width: 100%;
+    height: 37px;
+    background-color: rgb(56, 13, 188);
+}
+.n19 {
+    width: 100%;
+    height: 18px;
+    background-color: rgb(184, 172, 222);
+}
+.n20 {
+    width: 100%;
+    height: 19px;
+    background-color: rgb(233, 174, 236);
+    display: flex;
+}
+.n21 {
+    width: 100%;
+    height: 18px;
+    background-color: rgb(160, 77, 144);
+}
+.n22 {
+    width: 100%;
+    height: 18px;
+    background-color: rgb(185, 0, 62);
+}
+.n23 {
+    width: 100%;
+    height: 9px;
+    background-color: rgb(246, 165, 192);
+}
+.n24 {
+    width: 100%;
+    height: 9px;
+    background-color: rgb(1, 235, 40);
+}
+.n3 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(214, 214, 238);
+    display: flex;
+}
+.n25{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(48, 48, 176);
+}
+.n26{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(10, 105, 73);
+}
+.n27{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(243, 142, 0, 0.89);
+}
+.n4 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(26, 26, 27);
+    display: flex;
+}
+.n28{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(200, 200, 236); 
+}
+.n29{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(124, 124, 208); 
+}
+.n30{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(219, 110, 98); 
+}
+.n31{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 118); 
+}
+.n32{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(152, 227, 12); 
+}
+.n33{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(153, 156, 148); 
+}
+.n34{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 164, 179); 
+}
+.n35{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255); 
+}
+.n38{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(209, 215, 197); 
+}
+.n39{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(0, 255, 149); 
+}
+.n40{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(155, 0, 83); 
+}
+.n41{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(219, 231, 234);
+    display: flex;
+}
+.n45{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(59, 127, 0); 
+}
+.n46{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(2, 122, 131); 
+}
+.n47{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(1, 91, 217); 
+}
+.n48{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(2, 188, 245); 
+}
+.n49{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(248, 255, 242); 
+}
+.n50{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(235, 85, 5); 
+}
+.n42{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(30, 50, 13);
+    display: flex;
+}
+.n51{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(9, 209, 186);
+}
+.n52{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(177, 183, 172);
+}
+.n53{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(224, 102, 3);
+}
+.n54{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(98, 209, 0);
+}
+.n55{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(0, 41, 112);
+}
+.n56{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(71, 73, 69);
+}
+.n43{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(59, 116, 241); 
+}
+.n44{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(162, 2, 241); 
+}
+.n45{
+    width: 100%;
+    height: 21px;
+    background-color: rgb(66, 0, 81); 
+}
+
+/* .n42{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(118, 255, 203); 
+} */
+.n4{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(222, 38, 93); 
+    display: flex;
+}
+.n35{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 231, 89, 0.951); 
+}
+.n36{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(26, 57, 94, 0.951); 
+}
+.n37{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(201, 212, 47, 0.951); 
+}
