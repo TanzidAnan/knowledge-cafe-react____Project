@@ -17,7 +17,7 @@ function App() {
   }
 
   const hendleAddMarkAsRead =(time) =>{
-    console.log('marking red',time)
+    setReadingTime(readingTime+time)
   }
 
   return (
@@ -25,7 +25,7 @@ function App() {
       <Header></Header>
       <div className='md:flex w-[80%] mx-auto'>
         <Blogs hendleAddToBookMarks={hendleAddToBookMarks} hendleAddMarkAsRead={hendleAddMarkAsRead}></Blogs>
-        <BookMarks bookMarks={bookMarks}></BookMarks>
+        <BookMarks bookMarks={bookMarks} readingTime={readingTime}></BookMarks>
       </div>
     </>
   )
