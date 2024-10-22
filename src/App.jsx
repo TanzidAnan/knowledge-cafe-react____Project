@@ -6,20 +6,25 @@ import BookMarks from './Compontents/BookMarks/BookMarks'
 import Header from './Compontents/Header/Header'
 
 function App() {
-  const [bookMarks,setBookMarks] =useState([]);
+  const [bookMarks, setBookMarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0)
 
-  const hendleAddToBookMarks = (blog) =>{
+  const hendleAddToBookMarks = (blog) => {
     // setBookMarks('Book Mark',blog);
-    const newBookMarks = [...bookMarks,blog];
+    const newBookMarks = [...bookMarks, blog];
     setBookMarks(newBookMarks);
     console.log(newBookMarks)
+  }
+
+  const hendleAddMarkAsRead =(time) =>{
+    console.log('marking red',time)
   }
 
   return (
     <>
       <Header></Header>
       <div className='md:flex w-[80%] mx-auto'>
-        <Blogs hendleAddToBookMarks={hendleAddToBookMarks}></Blogs>
+        <Blogs hendleAddToBookMarks={hendleAddToBookMarks} hendleAddMarkAsRead={hendleAddMarkAsRead}></Blogs>
         <BookMarks bookMarks={bookMarks}></BookMarks>
       </div>
     </>
