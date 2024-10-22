@@ -12,7 +12,7 @@ const BookMarks = ({ bookMarks,readingTime }) => {
                 <h2 className="text-3xl text-center text-yellow-950 font-semibold">Book Marks :{bookMarks.length}</h2>
                 <div className='mb-2'>
                 {
-                    bookMarks.map(bookMark => <BookMark key={bookMark.id} bookMarks={bookMark} ></BookMark>)
+                    bookMarks.map((bookMark,idx) => <BookMark key={idx} bookMarks={bookMark} ></BookMark>)
                 }
                 </div>
             </div>

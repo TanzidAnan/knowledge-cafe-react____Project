@@ -16,8 +16,11 @@ function App() {
     console.log(newBookMarks)
   }
 
-  const hendleAddMarkAsRead =(time) =>{
-    setReadingTime(readingTime+time)
+  const hendleAddMarkAsRead =(id,time) =>{
+    setReadingTime(readingTime+time);
+    console.log('remove bookMark', id);
+    const reamingBookMarks =bookMarks.filter(bookMark => bookMark.id !== id);
+    setBookMarks(reamingBookMarks)
   }
 
   return (

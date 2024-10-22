@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { CiBookmark } from "react-icons/ci";
 
 const Blog = ({ blog,hendleAddToBookMarks,hendleAddMarkAsRead }) => {
-    const { title, cover, reading_time, author, author_img,posted_date,hashtags } = blog
-    console.log(blog)
+    const { id,title, cover, reading_time, author, author_img,posted_date,hashtags } = blog
+    // console.log(blog)
     return (
         <div className='px-3'>
             <img className='w-full' src={cover} alt={`cover pictcher ${title}`} />
@@ -32,7 +32,7 @@ const Blog = ({ blog,hendleAddToBookMarks,hendleAddMarkAsRead }) => {
                             hashtags.map((hase,idx) => <span key={idx}><a href=""> #{hase}</a></span>)
                         }
             </p>
-            <button className='text-purple-300 font-bold underline mb-7' onClick={() => hendleAddMarkAsRead(reading_time)}>Mark as read</button>
+            <button className='text-purple-300 font-bold underline mb-7' onClick={() => hendleAddMarkAsRead(id,reading_time)}>Mark as read</button>
         </div>
     );
 };
