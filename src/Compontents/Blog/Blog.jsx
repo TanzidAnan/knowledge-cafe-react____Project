@@ -26,7 +26,7 @@ const Blog = ({ blog,hendleAddToBookMarks }) => {
 
             </div>
             <h1 className='text-4xl font-semibold'>{title}</h1>
-            <p>
+            <p className='mb-4'>
                         {
                             hashtags.map((hase,idx) => <span key={idx}><a href=""> #{hase}</a></span>)
                         }
@@ -36,7 +36,8 @@ const Blog = ({ blog,hendleAddToBookMarks }) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    hendleAddToBookMarks:PropTypes.func.isRequired
 }
 
 export default Blog;

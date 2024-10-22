@@ -9,7 +9,10 @@ function App() {
   const [bookMarks,setBookMarks] =useState([]);
 
   const hendleAddToBookMarks = (blog) =>{
-    console.log('Book Mark',blog)
+    // setBookMarks('Book Mark',blog);
+    const newBookMarks = [...bookMarks,blog];
+    setBookMarks(newBookMarks);
+    console.log(newBookMarks)
   }
 
   return (
@@ -17,7 +20,7 @@ function App() {
       <Header></Header>
       <div className='md:flex w-[80%] mx-auto'>
         <Blogs hendleAddToBookMarks={hendleAddToBookMarks}></Blogs>
-        <BookMarks></BookMarks>
+        <BookMarks bookMarks={bookMarks}></BookMarks>
       </div>
     </>
   )
