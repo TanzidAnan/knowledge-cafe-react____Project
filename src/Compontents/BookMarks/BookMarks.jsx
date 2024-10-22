@@ -6,7 +6,7 @@ const BookMarks = ({ bookMarks,readingTime }) => {
     return (
         <div className="w-1/3 bg-gray-400 ml-4 pt-3 mt-6">
             <div className='bg-slate-800 p-6 m-2'>
-                <h1 className='text-3xl font-semibold text-center text-white'>Reading Time: <span className='text-red-700'>{readingTime}</span> min</h1>
+                <h1 className='text-3xl font-semibold text-center text-white'>Reading Timess: <span className='text-red-700'>{readingTime}</span> min</h1>
             </div>
             <div >
                 <h2 className="text-3xl text-center text-yellow-950 font-semibold">Book Marks :{bookMarks.length}</h2>
