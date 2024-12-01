@@ -13,7 +13,7 @@ const Blog = ({ blog,hendleAddToBookMarks,hendleAddMarkAsRead }) => {
                     <img className='w-14' src={author_img} alt="" />
                     <div>
                         <h4 className='text-lg text-slate-700 font-bold'>{author}</h4>
-                        <p className='text-lg'>{posted_date}</p>
+                        <p className='text-lg text-slate-700 font-bold'>{posted_date}</p>
                     </div>
                 </div>
                 <div className='flex gap-3'>
