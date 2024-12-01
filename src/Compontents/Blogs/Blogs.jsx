@@ -12,7 +12,7 @@ const Blogs = ({hendleAddToBookMarks,hendleAddMarkAsRead}) => {
     },[])
     return (
         <div className="md:w-2/3">
-            <h2 className="text-4xl">Blogs: {blogs.length}</h2>
+            <h2 className="text-4xl text-center font-bold py-4">Blogs: {blogs.length}</h2>
             <div>
                 {
                     blogs.map(blog => <Blog
