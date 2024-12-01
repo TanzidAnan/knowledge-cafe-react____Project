@@ -17,7 +17,7 @@ const Blog = ({ blog,hendleAddToBookMarks,hendleAddMarkAsRead }) => {
                     </div>
                 </div>
                 <div className='flex gap-3'>
-                    <h4>{reading_time} min read</h4>
+                    <h4 className='text-green-600'>{reading_time} min read</h4>
                     <button onClick={() =>hendleAddToBookMarks(blog)}
                      className='text-red-500 text-2xl'
 
